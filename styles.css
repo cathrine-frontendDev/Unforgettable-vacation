@@ -1,5 +1,10 @@
 body{
-    background-image: url("https://wereldreizigers.nl/wp-content/uploads/2021/08/the-rock-zanzibar-4-scaled.jpg");
-    background-size: cover;
+   background-image: url("https://kenings.co.za/wp-content/uploads/2023/08/Table-Mountain.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+}
 
+.container {
+    display: grid;
 }
