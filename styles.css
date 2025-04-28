@@ -1,11 +1,32 @@
 body{
-   background-image: url("https://kenings.co.za/wp-content/uploads/2023/08/Table-Mountain.jpg");
+   background-image: 
+   url("https://kenings.co.za/wp-content/uploads/2023/08/Table-Mountain.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    text-align: center;
 }
 
-.container {
-    background-color: rgb(206, 185, 159);
-    color: white;
+.about-section {
+    display: flex;
+    background-color: beige;
+    border: 5px;
+    border-radius: 20px;
+    width: 995px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card {
+    margin: 10px;
 }
