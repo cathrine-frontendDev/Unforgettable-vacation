@@ -7,6 +7,7 @@ body{
 }
 
 .about-section {
+    font-family: sans-serif;
     display: flex;
     background-color: beige;
     border: 5px;
@@ -16,12 +17,13 @@ body{
 }
 
 .primary {
+    font-family: sans-serif;
     background-color: beige;
-    border: 1px solid black;
+    border: 1px;
     border-radius: 20px;
     margin: 0 auto;
     margin-top: 30px;
-    padding: 25px;
+    padding: 23px;
     width: 960px;
 }
 
@@ -29,10 +31,19 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-
+    background-color: rgb(230, 225, 225);
 }
 
 .card {
     margin: 10px;
+}
+
+a {
+    border: 1px ;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px;
 }
